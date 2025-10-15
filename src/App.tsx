@@ -1,16 +1,21 @@
+import Navbar from "./components/Navbar";
+import HeroSection from "./components/HeroSection";
+import Footer from "./components/Footer";
 import { SpeedInsights } from "@vercel/speed-insights/react"
 
 function App() {
   return (
     <>
-    <div className="bg-slate-900 min-h-screen flex justify-center items-center">
-      <h1 className="text-white text-4xl font-bold underline">
-        Hello World! It's working!
-      </h1>
+    <div className="flex flex-col min-h-screen bg-slate-900">
+      <Navbar />
+      <main>
+        <HeroSection />
+      </main>
+      <Footer />
     </div>
-    <SpeedInsights /> 
+    <SpeedInsights />
     </>
   )
 }
 
-export default App
+export default App;
