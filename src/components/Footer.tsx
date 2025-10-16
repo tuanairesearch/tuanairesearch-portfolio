@@ -1,7 +1,7 @@
 const Footer = () => {
     return (
-        <footer className="bg-gray-900 text-white p-4">
-            <p>Đây là footer</p>
+        <footer className="container mx-auto px-6 py-6 text-center text-slate-400">
+            <p>&copy; 2025 Bùi Anh Tuấn. All Rights Reserved.</p>
         </footer>
     );
 }   
