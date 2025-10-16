@@ -5,7 +5,7 @@ const Navbar = () => {
                 <a href="#" className="text-xl font-bold text-white">
                     Bùi Anh Tuấn
                 </a>
-                <ul className="hidden md:flex items-center space-x-6">
+                <ul className="hidden md:flex items-center space-x-6 text-white">
                     <li><a href="#about" className="hover:text-blue-400 transition-colors">About</a></li>
                     <li><a href="#projects" className="hover:text-blue-400 transition-colors">Projects</a></li>
                     <li><a href="#blog" className="hover:text-blue-400 transition-colors">Blog</a></li>
